@@ -34,7 +34,7 @@ echo $page->comments->renderFormWithRatings();
 TODO
 ====
 
-Since this (https://github.com/ryancramerdesign/ProcessWire/blob/master/wire/modules/Fieldtype/FieldtypeComments/InputfieldCommentsAdmin.module#L29) method is protected and not hookable (yet), it wasn't the cleanest solution to get rating visible to the admin view.
+Since this InputfieldCommentsAdmin::renderItem is protected and not hookable yet, it wasn't the cleanest solution to get rating visible to the admin view.
 
 
 Credits
