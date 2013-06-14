@@ -30,3 +30,15 @@ foreach($page->comments as $comment) {
 // Render the form with rating dropdown (here you can use some js widget to make them stars):
 echo $page->comments->renderFormWithRatings();
 ```
+
+TODO
+====
+
+Since this (https://github.com/ryancramerdesign/ProcessWire/blob/master/wire/modules/Fieldtype/FieldtypeComments/InputfieldCommentsAdmin.module#L29) method is protected and not hookable (yet), it wasn't the cleanest solution to get rating visible to the admin view.
+
+
+Credits
+=======
+
+Module development sponsored by: Ovi Savescu @ DVS Consulting Group
+Thanks Ovi!
